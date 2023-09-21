@@ -70,6 +70,13 @@ MonoBehaviour:
   enabled:
     overrideState: 1
     value: 1
+  colorSource:
+    overrideState: 0
+    value: 0
+  gradientTex:
+    overrideState: 0
+    value: {fileID: 0}
+    defaultState: 1
   intensity:
     overrideState: 1
     value: 0.185
@@ -82,6 +89,7 @@ MonoBehaviour:
   geoInfluence:
     overrideState: 0
     value: 5
+  shader: {fileID: 0}
 --- !u!114 &114688253415180842
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -110,6 +118,13 @@ MonoBehaviour:
   enabled:
     overrideState: 1
     value: 1
+  colorSource:
+    overrideState: 0
+    value: 0
+  gradientTex:
+    overrideState: 0
+    value: {fileID: 0}
+    defaultState: 1
   intensity:
     overrideState: 1
     value: 0.125
@@ -122,3 +137,4 @@ MonoBehaviour:
   geoInfluence:
     overrideState: 0
     value: 5
+  shader: {fileID: 4800000, guid: 2f746b3f42e41224e81e476b3bace759, type: 3}

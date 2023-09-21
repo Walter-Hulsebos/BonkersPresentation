@@ -33,7 +33,10 @@ MonoBehaviour:
   mode:
     overrideState: 0
     value: 0
-  distance:
+  startFadeDistance:
+    overrideState: 0
+    value: 0
+  endFadeDistance:
     overrideState: 0
     value: 1000
   intensity:
@@ -50,6 +53,13 @@ MonoBehaviour:
   invert:
     overrideState: 0
     value: 0
+  vibrance:
+    overrideState: 0
+    value: 0
+  vibranceRGBBalance:
+    overrideState: 0
+    value: {r: 1, g: 1, b: 1, a: 1}
+  shader: {fileID: 0}
 --- !u!114 &2020646406060376654
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -69,7 +79,10 @@ MonoBehaviour:
   mode:
     overrideState: 0
     value: 0
-  distance:
+  startFadeDistance:
+    overrideState: 0
+    value: 0
+  endFadeDistance:
     overrideState: 0
     value: 1000
   intensity:
@@ -86,6 +99,13 @@ MonoBehaviour:
   invert:
     overrideState: 0
     value: 1
+  vibrance:
+    overrideState: 0
+    value: 0
+  vibranceRGBBalance:
+    overrideState: 0
+    value: {r: 1, g: 1, b: 1, a: 1}
+  shader: {fileID: 4800000, guid: 7e619237041da594fbcd385b036643c0, type: 3}
 --- !u!114 &3543634444747505980
 MonoBehaviour:
   m_ObjectHideFlags: 3

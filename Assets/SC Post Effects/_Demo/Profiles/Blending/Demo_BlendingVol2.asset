@@ -22,6 +22,7 @@ MonoBehaviour:
   intensity:
     overrideState: 1
     value: 0.491
+  shader: {fileID: 4800000, guid: cb0efa487ec90be4e8ff1011ca8aee6f, type: 3}
 --- !u!114 &-3489079262177836061
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -57,9 +58,19 @@ MonoBehaviour:
   enabled:
     overrideState: 1
     value: 1
+  mode:
+    overrideState: 0
+    value: 0
   amount:
     overrideState: 1
     value: 1
+  radius:
+    overrideState: 0
+    value: 1
+  contrast:
+    overrideState: 0
+    value: 1
+  shader: {fileID: 4800000, guid: 308a277f3ff90fc4ab12215ae0f00375, type: 3}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92,16 +103,17 @@ MonoBehaviour:
   enabled:
     overrideState: 1
     value: 1
-  refractionTex:
+  normalMap:
     overrideState: 1
     value: {fileID: 2800000, guid: 22397d0b212f9f249926d64f1abc8877, type: 3}
     defaultState: 1
-  convertNormalMap:
-    overrideState: 1
-    value: 0
   amount:
     overrideState: 1
     value: 0.528
+  tint:
+    overrideState: 0
+    value: {r: 1, g: 1, b: 1, a: 0.1}
+  shader: {fileID: 0}
 --- !u!114 &114719071176433488
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -131,6 +143,7 @@ MonoBehaviour:
   size:
     overrideState: 1
     value: 1
+  shader: {fileID: 0}
 --- !u!114 &3177379992737544214
 MonoBehaviour:
   m_ObjectHideFlags: 3

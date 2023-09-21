@@ -25,7 +25,13 @@ MonoBehaviour:
   invertFadeDistance:
     overrideState: 0
     value: 0
-  fadeDistance:
+  distanceFade:
+    overrideState: 0
+    value: 0
+  startFadeDistance:
+    overrideState: 0
+    value: 0
+  endFadeDistance:
     overrideState: 0
     value: 1000
   sensitivityDepth:
@@ -52,6 +58,7 @@ MonoBehaviour:
   sobelThin:
     overrideState: 0
     value: 0
+  shader: {fileID: 4800000, guid: 3fc4da99283964645b5394387ac90238, type: 3}
 --- !u!114 &-518102269097280471
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -143,9 +150,15 @@ MonoBehaviour:
   invertFadeDistance:
     overrideState: 1
     value: 0
-  fadeDistance:
-    overrideState: 1
-    value: 300
+  distanceFade:
+    overrideState: 0
+    value: 0
+  startFadeDistance:
+    overrideState: 0
+    value: 0
+  endFadeDistance:
+    overrideState: 0
+    value: 1000
   sensitivityDepth:
     overrideState: 1
     value: 0
@@ -170,6 +183,7 @@ MonoBehaviour:
   sobelThin:
     overrideState: 0
     value: 0
+  shader: {fileID: 0}
 --- !u!114 &932694370607143728
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -278,7 +292,13 @@ MonoBehaviour:
   invertFadeDistance:
     overrideState: 0
     value: 0
-  fadeDistance:
+  distanceFade:
+    overrideState: 0
+    value: 0
+  startFadeDistance:
+    overrideState: 0
+    value: 0
+  endFadeDistance:
     overrideState: 0
     value: 1000
   sensitivityDepth:
@@ -305,3 +325,4 @@ MonoBehaviour:
   sobelThin:
     overrideState: 0
     value: 0
+  shader: {fileID: 0}

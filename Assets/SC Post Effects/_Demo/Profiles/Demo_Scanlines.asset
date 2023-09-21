@@ -25,6 +25,7 @@ MonoBehaviour:
   speed:
     overrideState: 1
     value: 0.529
+  shader: {fileID: 4800000, guid: 7942e0da7d5d9024b8d5e8b47f1504ad, type: 3}
 --- !u!114 &-827497663746728983
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -89,3 +90,4 @@ MonoBehaviour:
   speed:
     overrideState: 0
     value: 0
+  shader: {fileID: 0}

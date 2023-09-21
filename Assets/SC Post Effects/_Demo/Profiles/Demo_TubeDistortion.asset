@@ -58,6 +58,7 @@ MonoBehaviour:
   amount:
     overrideState: 1
     value: 0.449
+  shader: {fileID: 0}
 --- !u!114 &1683699868782963306
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -80,3 +81,4 @@ MonoBehaviour:
   amount:
     overrideState: 1
     value: 0.467
+  shader: {fileID: 4800000, guid: 9e05863aabb89b54bb728292ed5d83a5, type: 3}

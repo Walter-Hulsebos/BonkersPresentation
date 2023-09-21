@@ -61,6 +61,9 @@ MonoBehaviour:
   enabled:
     overrideState: 1
     value: 1
+  amount:
+    overrideState: 1
+    value: 1
   mode:
     overrideState: 0
     value: 0
@@ -73,9 +76,13 @@ MonoBehaviour:
   areaFalloff:
     overrideState: 0
     value: 1
-  amount:
-    overrideState: 1
-    value: 1
+  offset:
+    overrideState: 0
+    value: 0
+  angle:
+    overrideState: 0
+    value: 0
+  shader: {fileID: 0}
 --- !u!114 &6475437929957083322
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -92,6 +99,9 @@ MonoBehaviour:
   enabled:
     overrideState: 1
     value: 1
+  amount:
+    overrideState: 1
+    value: 1
   mode:
     overrideState: 0
     value: 0
@@ -104,6 +114,10 @@ MonoBehaviour:
   areaFalloff:
     overrideState: 0
     value: 1
-  amount:
-    overrideState: 1
-    value: 1
+  offset:
+    overrideState: 0
+    value: 0
+  angle:
+    overrideState: 0
+    value: 0
+  shader: {fileID: 4800000, guid: 297865c3b70ca8c4cb45396a042cefac, type: 3}

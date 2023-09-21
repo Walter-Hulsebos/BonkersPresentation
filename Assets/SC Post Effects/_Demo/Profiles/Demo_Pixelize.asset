@@ -33,6 +33,19 @@ MonoBehaviour:
   amount:
     overrideState: 1
     value: 0.1
+  resolution:
+    overrideState: 0
+    value: 240
+  resolutionPreset:
+    overrideState: 0
+    value: 1
+  preserveAspectRatio:
+    overrideState: 0
+    value: 0
+  centerPixel:
+    overrideState: 0
+    value: 1
+  shader: {fileID: 0}
 --- !u!114 &7235710295846633437
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -52,6 +65,19 @@ MonoBehaviour:
   amount:
     overrideState: 1
     value: 0.126
+  resolution:
+    overrideState: 0
+    value: 240
+  resolutionPreset:
+    overrideState: 0
+    value: 1
+  preserveAspectRatio:
+    overrideState: 0
+    value: 0
+  centerPixel:
+    overrideState: 0
+    value: 1
+  shader: {fileID: 4800000, guid: c39cd958476c14d479deef55422ad6dc, type: 3}
 --- !u!114 &8263396291232610723
 MonoBehaviour:
   m_ObjectHideFlags: 3

@@ -35,6 +35,7 @@ MonoBehaviour:
   tiling:
     overrideState: 0
     value: 8
+  shader: {fileID: 4800000, guid: 222508ac8b1445b46b40cf671dc1ee4b, type: 3}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84,6 +85,7 @@ MonoBehaviour:
   tiling:
     overrideState: 0
     value: 8
+  shader: {fileID: 0}
 --- !u!114 &8110166748197651228
 MonoBehaviour:
   m_ObjectHideFlags: 3

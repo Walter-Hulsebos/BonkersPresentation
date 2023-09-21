@@ -22,6 +22,15 @@ MonoBehaviour:
   highQuality:
     overrideState: 0
     value: 0
+  distanceFade:
+    overrideState: 0
+    value: 0
+  startFadeDistance:
+    overrideState: 0
+    value: 0
+  endFadeDistance:
+    overrideState: 0
+    value: 500
   amount:
     overrideState: 1
     value: 1.16
@@ -31,6 +40,7 @@ MonoBehaviour:
   downscaling:
     overrideState: 0
     value: 2
+  shader: {fileID: 4800000, guid: b2d0fc0a10b87074bb6c8387fe709b8a, type: 3}
 --- !u!114 &-2869696302983959942
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -98,6 +108,15 @@ MonoBehaviour:
   highQuality:
     overrideState: 1
     value: 0
+  distanceFade:
+    overrideState: 0
+    value: 0
+  startFadeDistance:
+    overrideState: 0
+    value: 0
+  endFadeDistance:
+    overrideState: 0
+    value: 500
   amount:
     overrideState: 1
     value: 1.15
@@ -107,3 +126,4 @@ MonoBehaviour:
   downscaling:
     overrideState: 0
     value: 2
+  shader: {fileID: 0}

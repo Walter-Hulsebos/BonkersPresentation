@@ -69,6 +69,9 @@ MonoBehaviour:
   intensity:
     overrideState: 1
     value: 1
+  luminanceThreshold:
+    overrideState: 0
+    value: 0
   autoAspect:
     overrideState: 0
     value: 0
@@ -78,6 +81,7 @@ MonoBehaviour:
   tiling:
     overrideState: 0
     value: 0
+  shader: {fileID: 0}
 --- !u!114 &9149474924014372183
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -101,6 +105,9 @@ MonoBehaviour:
   intensity:
     overrideState: 1
     value: 1
+  luminanceThreshold:
+    overrideState: 0
+    value: 0
   autoAspect:
     overrideState: 0
     value: 0
@@ -110,3 +117,4 @@ MonoBehaviour:
   tiling:
     overrideState: 0
     value: 0
+  shader: {fileID: 4800000, guid: 853640b96ded15b42b211e6b50977112, type: 3}

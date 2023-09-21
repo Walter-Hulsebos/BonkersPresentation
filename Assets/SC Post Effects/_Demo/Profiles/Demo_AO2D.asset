@@ -88,6 +88,7 @@ MonoBehaviour:
   downscaling:
     overrideState: 0
     value: 2
+  shader: {fileID: 0}
 --- !u!114 &8194166214976271974
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -125,3 +126,4 @@ MonoBehaviour:
   downscaling:
     overrideState: 0
     value: 2
+  shader: {fileID: 4800000, guid: 7302f995b3e50f74190f0e4094129f1b, type: 3}

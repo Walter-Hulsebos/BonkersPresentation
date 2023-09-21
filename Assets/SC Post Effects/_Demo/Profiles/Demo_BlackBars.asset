@@ -50,6 +50,7 @@ MonoBehaviour:
   maxSize:
     overrideState: 0
     value: 0.33
+  shader: {fileID: 4800000, guid: 85137333e1594a040bc1c4eed44066d9, type: 3}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89,3 +90,4 @@ MonoBehaviour:
   maxSize:
     overrideState: 0
     value: 0.33
+  shader: {fileID: 0}

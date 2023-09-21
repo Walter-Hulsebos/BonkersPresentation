@@ -55,9 +55,16 @@ MonoBehaviour:
   amount:
     overrideState: 1
     value: 1
+  center:
+    overrideState: 0
+    value: {x: 0.5, y: 0.5}
+  angle:
+    overrideState: 0
+    value: 0
   iterations:
     overrideState: 0
     value: 6
+  shader: {fileID: 0}
 --- !u!114 &792640730241092476
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -77,6 +84,13 @@ MonoBehaviour:
   amount:
     overrideState: 1
     value: 0.48
+  center:
+    overrideState: 0
+    value: {x: 0.5, y: 0.5}
+  angle:
+    overrideState: 0
+    value: 0
   iterations:
     overrideState: 0
     value: 6
+  shader: {fileID: 4800000, guid: 32e77bda2f6f60b4da616e83def8e5cc, type: 3}

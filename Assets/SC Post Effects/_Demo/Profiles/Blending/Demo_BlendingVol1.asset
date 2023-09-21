@@ -126,6 +126,13 @@ MonoBehaviour:
   offset:
     overrideState: 1
     value: 0.569
+  edgeMasking:
+    overrideState: 0
+    value: 0
+  luminanceThreshold:
+    overrideState: 0
+    value: 0
+  shader: {fileID: 0}
 --- !u!114 &114514828726384606
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -151,6 +158,7 @@ MonoBehaviour:
   speed:
     overrideState: 0
     value: 0
+  shader: {fileID: 0}
 --- !u!114 &114766730353978732
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -170,6 +178,19 @@ MonoBehaviour:
   amount:
     overrideState: 1
     value: 0.05
+  resolution:
+    overrideState: 0
+    value: 240
+  resolutionPreset:
+    overrideState: 0
+    value: 1
+  preserveAspectRatio:
+    overrideState: 0
+    value: 0
+  centerPixel:
+    overrideState: 0
+    value: 1
+  shader: {fileID: 0}
 --- !u!114 &8533806914815139194
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -221,3 +242,4 @@ MonoBehaviour:
   size:
     overrideState: 1
     value: 0.317
+  shader: {fileID: 4800000, guid: 4a44515180ad0c3479c8533742eddb1a, type: 3}

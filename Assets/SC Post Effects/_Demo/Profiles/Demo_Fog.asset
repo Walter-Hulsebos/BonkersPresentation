@@ -30,10 +30,6 @@ MonoBehaviour:
   enabled:
     overrideState: 1
     value: 1
-  skyboxTex:
-    overrideState: 0
-    value: {fileID: 0}
-    defaultState: 1
   useSceneSettings:
     overrideState: 0
     value: 0
@@ -51,9 +47,6 @@ MonoBehaviour:
     value: 600
   colorSource:
     overrideState: 1
-    value: 0
-  skyboxMipLevel:
-    overrideState: 0
     value: 0
   fogColor:
     overrideState: 0
@@ -77,6 +70,9 @@ MonoBehaviour:
   useRadialDistance:
     overrideState: 0
     value: 1
+  horizonMinMax:
+    overrideState: 0
+    value: {x: 0, y: 1}
   skyboxInfluence:
     overrideState: 0
     value: 1
@@ -101,6 +97,9 @@ MonoBehaviour:
   lightIntensity:
     overrideState: 0
     value: 1
+  lightExponent:
+    overrideState: 0
+    value: 8
   heightFog:
     overrideState: 0
     value: 1
@@ -141,6 +140,7 @@ MonoBehaviour:
   scatterSoftKnee:
     overrideState: 0
     value: 0.5
+  shader: {fileID: 0}
 --- !u!114 &868642632854683051
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -157,10 +157,6 @@ MonoBehaviour:
   enabled:
     overrideState: 1
     value: 1
-  skyboxTex:
-    overrideState: 0
-    value: {fileID: 0}
-    defaultState: 1
   useSceneSettings:
     overrideState: 0
     value: 0
@@ -177,9 +173,6 @@ MonoBehaviour:
     overrideState: 0
     value: 600
   colorSource:
-    overrideState: 0
-    value: 0
-  skyboxMipLevel:
     overrideState: 0
     value: 0
   fogColor:
@@ -204,6 +197,9 @@ MonoBehaviour:
   useRadialDistance:
     overrideState: 0
     value: 1
+  horizonMinMax:
+    overrideState: 0
+    value: {x: 0, y: 1}
   skyboxInfluence:
     overrideState: 0
     value: 1
@@ -228,6 +224,9 @@ MonoBehaviour:
   lightIntensity:
     overrideState: 0
     value: 1
+  lightExponent:
+    overrideState: 0
+    value: 8
   heightFog:
     overrideState: 1
     value: 0
@@ -268,6 +267,7 @@ MonoBehaviour:
   scatterSoftKnee:
     overrideState: 0
     value: 0.5
+  shader: {fileID: 4800000, guid: fd6092137f2e92140aac060040cc91f6, type: 3}
 --- !u!114 &2005011719607183131
 MonoBehaviour:
   m_ObjectHideFlags: 3

@@ -72,6 +72,7 @@ MonoBehaviour:
   tiling:
     overrideState: 1
     value: 1
+  shader: {fileID: 0}
 --- !u!114 &8978926764287845916
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -101,3 +102,4 @@ MonoBehaviour:
   tiling:
     overrideState: 0
     value: 1
+  shader: {fileID: 4800000, guid: 1c1ae57e2060641499541cc50d8b6feb, type: 3}

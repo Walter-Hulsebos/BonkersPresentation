@@ -30,16 +30,17 @@ MonoBehaviour:
   enabled:
     overrideState: 1
     value: 1
-  refractionTex:
+  normalMap:
     overrideState: 1
     value: {fileID: 2800000, guid: 72dcf1a2d500f3c4795e8bc3fda87ac9, type: 3}
     defaultState: 1
-  convertNormalMap:
-    overrideState: 0
-    value: 0
   amount:
     overrideState: 1
     value: 1
+  tint:
+    overrideState: 0
+    value: {r: 1, g: 1, b: 1, a: 0.1}
+  shader: {fileID: 0}
 --- !u!114 &638682969008052742
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -82,13 +83,14 @@ MonoBehaviour:
   enabled:
     overrideState: 1
     value: 1
-  refractionTex:
+  normalMap:
     overrideState: 1
     value: {fileID: 2800000, guid: 72dcf1a2d500f3c4795e8bc3fda87ac9, type: 3}
     defaultState: 1
-  convertNormalMap:
-    overrideState: 0
-    value: 0
   amount:
     overrideState: 1
     value: 0.496
+  tint:
+    overrideState: 0
+    value: {r: 1, g: 1, b: 1, a: 0.1}
+  shader: {fileID: 4800000, guid: e38a88e63db1db046afeead6664dc12d, type: 3}

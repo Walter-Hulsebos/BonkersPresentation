@@ -36,6 +36,13 @@ MonoBehaviour:
   offset:
     overrideState: 1
     value: 1
+  edgeMasking:
+    overrideState: 0
+    value: 0
+  luminanceThreshold:
+    overrideState: 0
+    value: 0
+  shader: {fileID: 0}
 --- !u!114 &3658834893734187783
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -58,6 +65,13 @@ MonoBehaviour:
   offset:
     overrideState: 1
     value: 0.491
+  edgeMasking:
+    overrideState: 0
+    value: 0
+  luminanceThreshold:
+    overrideState: 0
+    value: 0
+  shader: {fileID: 4800000, guid: 63634d10dd2af5a42844929b1036ecf5, type: 3}
 --- !u!114 &5078483092023454213
 MonoBehaviour:
   m_ObjectHideFlags: 3

@@ -1,0 +1,152 @@
+fileFormatVersion: 2
+guid: ea7d13f04a666f44788656fb8fb1ef60
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 1704502061488037801
+    second: AttackLeft_Evilemon_S
+  - first:
+      74: -4366021588484600947
+    second: AttackRight_Evilemon_S
+  - first:
+      74: 3268548584778841870
+    second: Death_Evilemon_S
+  - first:
+      74: 7380005832523569113
+    second: Def_Evilemon_S
+  - first:
+      74: 3363703591337120986
+    second: GunLeft_Evilemon_S
+  - first:
+      74: -5309788635140158702
+    second: GunRight_Evilemon_S
+  - first:
+      74: 1248896630310760963
+    second: Hit_Evilemon_S
+  - first:
+      74: -5304513705312850970
+    second: Idle_Evilemon_S
+  - first:
+      74: 1855283374958811685
+    second: Jump_Evilemon_S
+  - first:
+      74: 6968665157950173259
+    second: Rage_Evilemon_S
+  - first:
+      74: 6086904690230311115
+    second: Run_Evilemon_S
+  - first:
+      74: -4197968891293769652
+    second: Walk_Evilemon_S
+  - first:
+      74: -8859430546475151720
+    second: WalkBack_Evilemon_S
+  - first:
+      74: 7107774174819675769
+    second: WalkLeft_Evilemon_S
+  - first:
+      74: 4142629224344342534
+    second: WalkRight_Evilemon_S
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Test
+    second: {fileID: 2100000, guid: 30eb2e8ec7eee4244a6d411fe35d371e, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

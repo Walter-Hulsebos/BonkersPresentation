@@ -1,0 +1,977 @@
+fileFormatVersion: 2
+guid: ec147427c061f924a9fa11c878f7cf5d
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      74: -6679040999465045496
+    second: AttackLeft_Evilemon_H
+  - first:
+      74: -2225054322592535071
+    second: AttackRight_Evilemon_H
+  - first:
+      74: -6048670293344432483
+    second: Block_Evilemon_H
+  - first:
+      74: 8151018444478177378
+    second: Death_Evilemon_H
+  - first:
+      74: 6208271401364180544
+    second: GunLeft_Evilemon_H
+  - first:
+      74: 2849701419094844367
+    second: GunRight_Evilemon_H
+  - first:
+      74: 4654238366843263428
+    second: Hit_Evilemon_H
+  - first:
+      74: -6886818297735240308
+    second: Idle_Evilemon_H
+  - first:
+      74: 8584735996978067603
+    second: Jump_Evilemon_H
+  - first:
+      74: -9058531514617812049
+    second: Rage_Evilemon_H
+  - first:
+      74: -8051331882329862971
+    second: Run_Evilemon_H
+  - first:
+      74: 4866386710069139964
+    second: Walk_Evilemon_H
+  - first:
+      74: 2947571740112232767
+    second: WalkBack_Evilemon_H
+  - first:
+      74: -3522830661873901648
+    second: WalkLeft_Evilemon_H
+  - first:
+      74: -1710095860755936176
+    second: WalkRight_Evilemon_H
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Test
+    second: {fileID: 2100000, guid: 30eb2e8ec7eee4244a6d411fe35d371e, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'AttackLeft_Evilemon_H' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Large_Evilemon:Chest_M' has
+      translation animation that will be discarded.\n\t'Large_Evilemon:Chest_M' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Large_Evilemon:Neck_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Large_Evilemon:Head_M'
+      has translation animation that will be discarded.\n\nClip 'AttackRight_Evilemon_H'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Large_Evilemon:Chest_M'
+      has translation animation that will be discarded.\n\t'Large_Evilemon:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Large_Evilemon:Neck_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Large_Evilemon:Head_M'
+      has translation animation that will be discarded.\n\nClip 'Block_Evilemon_H'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Large_Evilemon:Chest_M'
+      has translation animation that will be discarded.\n\t'Large_Evilemon:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Large_Evilemon:Scapula_L'
+      has translation animation that will be discarded.\n\t'Large_Evilemon:Neck_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Death_Evilemon_H' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Large_Evilemon:Chest_M'
+      has translation animation that will be discarded.\n\t'Large_Evilemon:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Large_Evilemon:Wrist_L'
+      has translation animation that will be discarded.\n\t'Large_Evilemon:Neck_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Large_Evilemon:Head_M'
+      has translation animation that will be discarded.\n\t'Large_Evilemon:Wrist_R'
+      has translation animation that will be discarded.\n\nClip 'GunLeft_Evilemon_H'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Large_Evilemon:Chest_M'
+      has translation animation that will be discarded.\n\t'Large_Evilemon:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Large_Evilemon:Neck_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Large_Evilemon:Head_M'
+      has translation animation that will be discarded.\n\nClip 'GunRight_Evilemon_H'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Large_Evilemon:Chest_M'
+      has translation animation that will be discarded.\n\t'Large_Evilemon:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Large_Evilemon:Neck_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Large_Evilemon:Head_M'
+      has translation animation that will be discarded.\n\nClip 'Hit_Evilemon_H'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Large_Evilemon:Chest_M'
+      has translation animation that will be discarded.\n\t'Large_Evilemon:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Large_Evilemon:Neck_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Large_Evilemon:Head_M'
+      has translation animation that will be discarded.\n\nClip 'Idle_Evilemon_H'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Large_Evilemon:Chest_M'
+      has translation animation that will be discarded.\n\t'Large_Evilemon:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Large_Evilemon:Neck_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Large_Evilemon:Head_M'
+      has translation animation that will be discarded.\n\nClip 'Jump_Evilemon_H'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Large_Evilemon:Chest_M'
+      has translation animation that will be discarded.\n\t'Large_Evilemon:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Large_Evilemon:Neck_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Large_Evilemon:Head_M'
+      has translation animation that will be discarded.\n\nClip 'Rage_Evilemon_H'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Large_Evilemon:Chest_M'
+      has translation animation that will be discarded.\n\t'Large_Evilemon:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Large_Evilemon:Neck_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Large_Evilemon:Head_M'
+      has translation animation that will be discarded.\n\nClip 'Run_Evilemon_H'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Large_Evilemon:Chest_M'
+      has translation animation that will be discarded.\n\t'Large_Evilemon:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Large_Evilemon:Neck_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Large_Evilemon:Head_M'
+      has translation animation that will be discarded.\n\nClip 'Walk_Evilemon_H'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Large_Evilemon:Chest_M'
+      has translation animation that will be discarded.\n\t'Large_Evilemon:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Large_Evilemon:Neck_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Large_Evilemon:Head_M'
+      has translation animation that will be discarded.\n\nClip 'WalkBack_Evilemon_H'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Large_Evilemon:Chest_M'
+      has translation animation that will be discarded.\n\t'Large_Evilemon:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Large_Evilemon:Neck_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Large_Evilemon:Head_M'
+      has translation animation that will be discarded.\n\nClip 'WalkLeft_Evilemon_H'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Large_Evilemon:Chest_M'
+      has translation animation that will be discarded.\n\t'Large_Evilemon:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Large_Evilemon:Neck_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Large_Evilemon:Head_M'
+      has translation animation that will be discarded.\n\nClip 'WalkRight_Evilemon_H'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Large_Evilemon:Chest_M'
+      has translation animation that will be discarded.\n\t'Large_Evilemon:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Large_Evilemon:Neck_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Large_Evilemon:Head_M'
+      has translation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: AttackLeft_Evilemon_H
+      takeName: AttackLeft_Evilemon_H
+      internalID: -6679040999465045496
+      firstFrame: 232
+      lastFrame: 294
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AttackRight_Evilemon_H
+      takeName: AttackRight_Evilemon_H
+      internalID: -2225054322592535071
+      firstFrame: 295
+      lastFrame: 356
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Block_Evilemon_H
+      takeName: Block_Evilemon_H
+      internalID: -6048670293344432483
+      firstFrame: 446
+      lastFrame: 496
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Death_Evilemon_H
+      takeName: Death_Evilemon_H
+      internalID: 8151018444478177378
+      firstFrame: 66
+      lastFrame: 122
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: GunLeft_Evilemon_H
+      takeName: GunLeft_Evilemon_H
+      internalID: 6208271401364180544
+      firstFrame: 123
+      lastFrame: 173
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: GunRight_Evilemon_H
+      takeName: GunRight_Evilemon_H
+      internalID: 2849701419094844367
+      firstFrame: 596
+      lastFrame: 646
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hit_Evilemon_H
+      takeName: Hit_Evilemon_H
+      internalID: 4654238366843263428
+      firstFrame: 51
+      lastFrame: 65
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle_Evilemon_H
+      takeName: Idle_Evilemon_H
+      internalID: -6886818297735240308
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: -0.44
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump_Evilemon_H
+      takeName: Jump_Evilemon_H
+      internalID: 8584735996978067603
+      firstFrame: 406
+      lastFrame: 445
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rage_Evilemon_H
+      takeName: Rage_Evilemon_H
+      internalID: -9058531514617812049
+      firstFrame: 357
+      lastFrame: 405
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run_Evilemon_H
+      takeName: Run_Evilemon_H
+      internalID: -8051331882329862971
+      firstFrame: 207
+      lastFrame: 231
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk_Evilemon_H
+      takeName: Walk_Evilemon_H
+      internalID: 4866386710069139964
+      firstFrame: 174
+      lastFrame: 206
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WalkBack_Evilemon_H
+      takeName: WalkBack_Evilemon_H
+      internalID: 2947571740112232767
+      firstFrame: 563
+      lastFrame: 595
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WalkLeft_Evilemon_H
+      takeName: WalkLeft_Evilemon_H
+      internalID: -3522830661873901648
+      firstFrame: 497
+      lastFrame: 529
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WalkRight_Evilemon_H
+      takeName: WalkRight_Evilemon_H
+      internalID: -1710095860755936176
+      firstFrame: 530
+      lastFrame: 562
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Large_Evilemon:Root_M
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Large_Evilemon:Hip_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Large_Evilemon:Hip_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Large_Evilemon:Knee_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Large_Evilemon:Knee_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Large_Evilemon:Ankle_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Large_Evilemon:Ankle_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Large_Evilemon:Spine1_M
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Large_Evilemon:Head_M
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Large_Evilemon:Shoulder_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Large_Evilemon:Shoulder_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Large_Evilemon:Elbow_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Large_Evilemon:Elbow_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Large_Evilemon:Wrist_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Large_Evilemon:Wrist_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Large_Evilemon:Toes_L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Large_Evilemon:Toes_R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: 03_Evilemon_H(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Large_Evilemon:Evilemon_L
+      parentName: 03_Evilemon_H(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Large_Evilemon:Root
+      parentName: 03_Evilemon_H(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.008433267, y: 0, z: -0, w: 0.9999645}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: Large_Evilemon:Root_M
+      parentName: Large_Evilemon:Root
+      position: {x: 0, y: 2.2463, z: -0.34449387}
+      rotation: {x: -0.070909224, y: -0.7035424, z: 0.070909224, w: 0.7035424}
+      scale: {x: 0.99999964, y: 0.9999993, z: 0.99999905}
+    - name: Large_Evilemon:Spine1_M
+      parentName: Large_Evilemon:Root_M
+      position: {x: 0.047094945, y: 0.42541203, z: 0.0000013165238}
+      rotation: {x: 0.000000007450581, y: 0.000000029802322, z: -0.2012789, w: 0.97953403}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000019}
+    - name: Large_Evilemon:Chest_M
+      parentName: Large_Evilemon:Spine1_M
+      position: {x: 0.02666332, y: 0.28781912, z: -0.00012798015}
+      rotation: {x: -0.058399692, y: 0.9982933, z: 0.000000012556496, w: 0.000000088198696}
+      scale: {x: 0.9999993, y: 1.000001, z: 0.9999992}
+    - name: Large_Evilemon:Scapula_L
+      parentName: Large_Evilemon:Chest_M
+      position: {x: -0.0391063, y: 0.6248886, z: -0.18520965}
+      rotation: {x: -0.024989275, y: -0.706665, z: 0.7066652, w: 0.024988811}
+      scale: {x: 0.9999997, y: 1, z: 1.0000001}
+    - name: Large_Evilemon:Shoulder_L
+      parentName: Large_Evilemon:Scapula_L
+      position: {x: -0.00000036537992, y: 0.51198846, z: 0.000000502753}
+      rotation: {x: 0.019470008, y: -0.00033329052, z: -0.000841515, w: 0.9998101}
+      scale: {x: 1.0000024, y: 1.0000004, z: 1.0000005}
+    - name: Large_Evilemon:Elbow_L
+      parentName: Large_Evilemon:Shoulder_L
+      position: {x: -0.00000052277477, y: 1.3907787, z: -0.0000019673378}
+      rotation: {x: 0.008610129, y: -0.0056171604, z: -0.0073080743, w: 0.9999205}
+      scale: {x: 0.999999, y: 0.9999998, z: 1.0000001}
+    - name: Large_Evilemon:Wrist_L
+      parentName: Large_Evilemon:Elbow_L
+      position: {x: -0.000000013766, y: 1.0260879, z: 0.00000087057145}
+      rotation: {x: 0.05859469, y: 0.07797549, z: 0.19144589, w: 0.9766448}
+      scale: {x: 1.0000002, y: 0.9999998, z: 1.0000001}
+    - name: Large_Evilemon:MiddleFinger1_L
+      parentName: Large_Evilemon:Wrist_L
+      position: {x: -0.000000024520988, y: 0.3616117, z: -0.0000013747265}
+      rotation: {x: 0.016497446, y: -0.14413536, z: -0.07706437, w: 0.98641473}
+      scale: {x: 1.0000006, y: 1.0000005, z: 0.99999887}
+    - name: Large_Evilemon:MiddleFinger4_L
+      parentName: Large_Evilemon:MiddleFinger1_L
+      position: {x: -0.00000017752768, y: 0.47666594, z: -0.00000094005514}
+      rotation: {x: -0.014412054, y: 0.14769939, z: 0.06411271, w: 0.9868469}
+      scale: {x: 1.0000006, y: 1.0000001, z: 1.0000001}
+    - name: Large_Evilemon:Neck_M
+      parentName: Large_Evilemon:Chest_M
+      position: {x: 0.07820914, y: 1.0785474, z: -0.0000005618093}
+      rotation: {x: -0.065016866, y: 0.99788415, z: -0.00000011467765, w: 0.00000028797214}
+      scale: {x: 0.9999996, y: 0.99999976, z: 1}
+    - name: Large_Evilemon:Head_M
+      parentName: Large_Evilemon:Neck_M
+      position: {x: 0.019142257, y: 0.50733256, z: -0.001039969}
+      rotation: {x: 0.0000001187317, y: -0.0000003493136, z: -0.08894802, w: -0.9960363}
+      scale: {x: 1.000001, y: 0.99999934, z: 1.0000006}
+    - name: Large_Evilemon:HeadEnd_M
+      parentName: Large_Evilemon:Head_M
+      position: {x: 0.0000012738528, y: 0.7796678, z: -0.0000007129477}
+      rotation: {x: -1.2037062e-35, y: 8.6736174e-19, z: 1.3877788e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Large_Evilemon:Scapula_R
+      parentName: Large_Evilemon:Chest_M
+      position: {x: -0.03910562, y: 0.6248909, z: 0.18520948}
+      rotation: {x: 0.706665, y: -0.02498932, z: -0.024988856, w: 0.7066652}
+      scale: {x: 0.9999997, y: 1, z: 1.0000001}
+    - name: Large_Evilemon:Shoulder_R
+      parentName: Large_Evilemon:Scapula_R
+      position: {x: -0.000000824482, y: 0.51198936, z: -0.00000058666177}
+      rotation: {x: 0.019309482, y: 0.09249414, z: 0.002632438, w: 0.9955225}
+      scale: {x: 1.0000017, y: 1.0000006, z: 0.9999996}
+    - name: Large_Evilemon:Elbow_R
+      parentName: Large_Evilemon:Shoulder_R
+      position: {x: 0.0000016682193, y: 1.3907837, z: -0.000000056785147}
+      rotation: {x: -0.011188025, y: 0.8518431, z: 0.0015419258, w: -0.52367514}
+      scale: {x: 0.9999991, y: 1.0000001, z: 1.0000006}
+    - name: Large_Evilemon:Wrist_R
+      parentName: Large_Evilemon:Elbow_R
+      position: {x: -0.00000113769, y: 1.0260873, z: 0.0000017055863}
+      rotation: {x: -0.009833249, y: -0.97923446, z: 0.19997221, w: -0.031847946}
+      scale: {x: 1.0000006, y: 0.9999998, z: 0.99999994}
+    - name: Large_Evilemon:MiddleFinger1_R
+      parentName: Large_Evilemon:Wrist_R
+      position: {x: -0.000000743815, y: 0.36160475, z: 0.0000011464024}
+      rotation: {x: -0.14419287, y: 0.16075213, z: 0.053715743, w: 0.9749266}
+      scale: {x: 1, y: 1.0000005, z: 0.9999989}
+    - name: Large_Evilemon:MiddleFinger4_R
+      parentName: Large_Evilemon:MiddleFinger1_R
+      position: {x: 0.0000009476239, y: 0.4766693, z: 0.00000032283026}
+      rotation: {x: 0.12748264, y: -0.24171852, z: -0.059938833, w: 0.9600665}
+      scale: {x: 1.0000004, y: 1.0000008, z: 1.0000002}
+    - name: Large_Evilemon:Hip_R
+      parentName: Large_Evilemon:Root_M
+      position: {x: -0.023547225, y: -0.031106032, z: -0.33072537}
+      rotation: {x: 0.9999713, y: -0.0075808233, z: -9.3132246e-10, w: 0.0000000074505797}
+      scale: {x: 0.9999997, y: 1.0000004, z: 1.0000013}
+    - name: Large_Evilemon:Knee_R
+      parentName: Large_Evilemon:Hip_R
+      position: {x: -0.00000079525677, y: 1.1858114, z: -0.00000058201965}
+      rotation: {x: 0.00000001513227, y: 0.000000030608945, z: 0.24756633, w: 0.968871}
+      scale: {x: 1.0000023, y: 1.0000021, z: 1.0000005}
+    - name: Large_Evilemon:Ankle_R
+      parentName: Large_Evilemon:Knee_R
+      position: {x: -0.0000015214716, y: 0.78275234, z: -0.0000013628675}
+      rotation: {x: -0.027249638, y: -0.07902714, z: -0.5196228, w: 0.8502966}
+      scale: {x: 0.9999986, y: 0.99999946, z: 1}
+    - name: Large_Evilemon:Toes_R
+      parentName: Large_Evilemon:Ankle_R
+      position: {x: 0.0000009668491, y: 0.33002022, z: 0.0000009618745}
+      rotation: {x: 0.055649236, y: 0.3086607, z: -0.34310344, w: 0.8853879}
+      scale: {x: 1, y: 1.0000008, z: 0.99999994}
+    - name: Large_Evilemon:ToesEnd_R
+      parentName: Large_Evilemon:Toes_R
+      position: {x: 0.00000018474385, y: 0.37409517, z: -0.00000044460654}
+      rotation: {x: -0.00000014829692, y: -0.000001615714, z: -0.00000005786971, w: 1}
+      scale: {x: 0.9999993, y: 1, z: 1.0000004}
+    - name: Large_Evilemon:Hip_L
+      parentName: Large_Evilemon:Root_M
+      position: {x: -0.023547372, y: -0.031109406, z: 0.3307261}
+      rotation: {x: 0.99997133, y: -0.007580324, z: 0.000000029802319, w: 0.0000000037252899}
+      scale: {x: 1.000001, y: 1.0000008, z: 1.0000011}
+    - name: Large_Evilemon:Knee_L
+      parentName: Large_Evilemon:Hip_L
+      position: {x: -0.0000004598535, y: 1.1858057, z: 0.0000010778057}
+      rotation: {x: -0.0000000039944905, y: -0.000000029767433, z: 0.24756645, w: 0.968871}
+      scale: {x: 1.0000002, y: 1.0000013, z: 1.0000001}
+    - name: Large_Evilemon:Ankle_L
+      parentName: Large_Evilemon:Knee_L
+      position: {x: -0.0000007369706, y: 0.78275687, z: -0.0000005552073}
+      rotation: {x: -0.036439586, y: -0.025450017, z: -0.51905894, w: 0.8535821}
+      scale: {x: 0.99999887, y: 0.99999994, z: 1.0000001}
+    - name: Large_Evilemon:Toes_L
+      parentName: Large_Evilemon:Ankle_L
+      position: {x: -0.00000083039055, y: 0.33001822, z: 0.0000009875979}
+      rotation: {x: -0.09238303, y: -0.18509053, z: -0.3350854, w: 0.91919786}
+      scale: {x: 1.000001, y: 0.9999984, z: 1.0000001}
+    - name: Large_Evilemon:ToesEnd_L
+      parentName: Large_Evilemon:Toes_L
+      position: {x: -0.0000010892182, y: 0.37409726, z: -0.0000005475442}
+      rotation: {x: 0.00000045994923, y: 0.0000010951438, z: 0.0000002247713, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 0.9999995}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
